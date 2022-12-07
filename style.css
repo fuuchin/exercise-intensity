@@ -1,0 +1,46 @@
+
+main {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#sport-result-area-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+#sport-result-area {
+  text-align: center;
+  padding: 15px;
+  border: 2px solid #dd9;
+  border-radius: 10px;
+  width: 60%;
+}
+
+#time-result-area-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+#time-result-area {
+  text-align: center;
+  padding: 15px;
+  border: 2px solid #dd9;
+  border-radius: 10px;
+  width: 60%;
+}

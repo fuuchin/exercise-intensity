@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>ちょっと便利なやつ</title>
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <nav class="navbar navbar-dark" style="background-color: #00b4c8;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">ちょっと便利なやつ</a>
+      </div>
+    </nav>
+  </header>
+  <!-- メイン -->
+  <main>
+    <h1>運動強度の計算</h1>
+    <div class="input-group">
+      <div class="input-group-prepend"><div class="input-group-text">運動前の心拍数：</div></div>
+      <input type="text" id="before-input" class="form-control">
+    </div>
+    <div class="input-group">
+      <div class="input-group-prepend"><div class="input-group-text">運動後の心拍数：</div></div>
+      <input type="text" id="after-input" class="form-control">
+    </div>
+    <div id="sport-result-area-div">
+      <div id="sport-result-area" style="display: none;"></div>
+    </div>
+    <!--  -->
+    <h1>時間の計算</h1>
+    <div class="input-group">
+      <input type="text" id="m-input-1" class="form-control">
+      <div class="input-group-prepend"><div class="input-group-text">分</div></div>
+      <input type="text" id="s-input-1" class="form-control">
+      <div class="input-group-prepend"><div class="input-group-text">秒</div></div>
+      <select id="mark" class="form-control">
+        <option value="m">-</option>
+        <option value="p">+</option>
+      </select>
+      <input type="text" id="m-input-2" class="form-control">
+      <div class="input-group-prepend"><div class="input-group-text">分</div></div>
+      <input type="text" id="s-input-2" class="form-control">
+      <div class="input-group-prepend"><div class="input-group-text">秒</div></div>
+    </div>
+    
+    <div id="time-result-area-div">
+      <div id="time-result-area"></div>
+    </div>
+  </main>
+  <!-- フッター -->
+  <footer>
+    <nav class="navbar navbar-dark" style="background-color: #00b4c8;">
+      <div class="container-fluid">
+        <small class="navbar-brand footer">fuuchin 2022 ちょっと便利なやつ</small>
+      </div>
+    </nav>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
